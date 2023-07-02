@@ -1,0 +1,10 @@
+server:
+  port: 1016
+datasource:   #args := "root:123456@tcp(127.0.0.1:3306)/ginEssential?charset=utf8mb4&parseTime=True&loc=Local"
+  drivername: mysql
+  host: 127.0.0.1
+  port: 3306
+  database: ginEssential
+  username: root
+  password: 123456
+  charset: utf8
