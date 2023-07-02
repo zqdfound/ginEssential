@@ -22,5 +22,6 @@ func InitConfig() {
 	err := viper.ReadInConfig()
 	if err != nil {
 		log.Println("加载配置失败")
+		panic(any(err))
 	}
 }
